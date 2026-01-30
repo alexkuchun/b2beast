@@ -1,0 +1,8 @@
+fastapi[standard]==0.115.4
+pydantic==2.9.2
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.0
+# Dependencies for hallbayes (local package in src/)
+openai>=1.0.0
+numpy
+requests

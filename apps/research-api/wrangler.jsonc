@@ -1,0 +1,48 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "research-api",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-10-11",
+	"workers_dev": false,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "b2beast-research-api",
+			"database_id": "a9325651-a854-4676-9527-46998cfed271"
+		}
+	],
+	"workflows": [
+		{
+			"binding": "PDF_PARSER_WORKFLOW",
+			"name": "pdf-parser-workflow",
+			"class_name": "PdfParserWorkflow"
+		},
+		{
+			"binding": "LEGAL_COMPLIANCE_WORKFLOW",
+			"name": "legal-compliance-workflow",
+			"class_name": "LegalComplianceWorkflow"
+		}
+	],
+	"migrations": [
+		{
+			"tag": "v1",
+			"new_sqlite_classes": ["PythonExecutorContainer"]
+		},
+		{
+			"tag": "v2",
+			"deleted_sqlite_classes": ["PythonExecutorContainer"]
+		}
+	],
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"vars": {
+		"CORS_ORIGINS": "http://localhost:3000,http://localhost:5173"
+	},
+	"r2_buckets": [
+		{
+			"bucket_name": "research-assets",
+			"binding": "research_assets"
+		}
+	]
+}

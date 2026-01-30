@@ -1,0 +1,1 @@
+ALTER TABLE `research` ADD `enable_hallucination_check` integer DEFAULT false;

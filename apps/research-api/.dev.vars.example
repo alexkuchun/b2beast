@@ -1,0 +1,14 @@
+# Development environment variables
+# Copy this file to .dev.vars for local development
+
+# CORS Origins (comma-separated)
+CORS_ORIGINS=http://localhost:3000,http://localhost:5173
+
+# OpenAI API Key for AI-powered features (PDF parsing and contract review)
+OPENAI_API_KEY=sk-your-openai-api-key-here
+
+# OpenRouter API Key for AI-powered features (PDF parsing and contract review)
+OPENROUTER_API_KEY=sk-your-openrouter-api-key-here
+
+# Antihal Service URL for hallucination detection (Docker container)
+ANTIHAL_URL=http://localhost:8000

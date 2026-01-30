@@ -1,0 +1,10 @@
+{
+  "name": "@b2beast/api-types",
+  "version": "1.0.0",
+  "description": "Type-safe API interfaces for B2B legal research API",
+  "main": "index.d.ts",
+  "types": "index.d.ts",
+  "files": ["index.d.ts"],
+  "keywords": ["typescript", "api", "types", "hono"],
+  "private": true
+}

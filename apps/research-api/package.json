@@ -1,0 +1,40 @@
+{
+	"name": "research-api",
+	"type": "module",
+	"types": "./src/index.ts",
+	"exports": {
+		".": {
+			"types": "./src/index.ts",
+			"import": "./src/index.ts",
+			"default": "./src/index.ts"
+		}
+	},
+	"scripts": {
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy --minify",
+		"db:generate": "drizzle-kit generate --schema=./src/db/schema.ts --out=./migrations --dialect sqlite",
+		"db:migrate:local": "wrangler d1 migrations apply b2beast-research-api --local",
+		"db:migrate:remote": "wrangler d1 migrations apply b2beast-research-api --remote",
+		"r2:upload-legal-codes:local": "wrangler r2 object put research-assets/bgb.json --file=data/bgb.json --local && wrangler r2 object put research-assets/hgb.json --file=data/hgb.json --local",
+		"r2:upload-legal-codes:remote": "wrangler r2 object put research-assets/bgb.json --file=data/bgb.json --remote && wrangler r2 object put research-assets/hgb.json --file=data/hgb.json --remote",
+		"cf-typegen": "wrangler types --env-interface ResearchApiCloudflareBindings",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@ai-sdk/openai": "^2.0.49",
+		"@cloudflare/containers": "^0.0.28",
+		"@hono/zod-validator": "^0.7.2",
+		"@openrouter/ai-sdk-provider": "^1.2.0",
+		"ai": "^5.0.68",
+		"drizzle-orm": "^0.44.5",
+		"hono": "^4.9.4",
+		"react-markdown": "^10.1.0",
+		"zod": "^3.24.1"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20241011.0",
+		"drizzle-kit": "^0.31.4",
+		"typescript": "^5.6.3",
+		"wrangler": "^4.33.1"
+	}
+}

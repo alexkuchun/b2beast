@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1760186983715,
+      "tag": "0000_powerful_korvac",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1760200498034,
+      "tag": "0001_moaning_black_widow",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1760203826924,
+      "tag": "0002_premium_surge",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1760208259834,
+      "tag": "0003_tearful_meggan",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1760256183803,
+      "tag": "0004_perfect_young_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1760267042821,
+      "tag": "0005_wise_annihilus",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1760436165187,
+      "tag": "0006_brief_lucky_pierre",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1761165838664,
+      "tag": "0007_conscious_amphibian",
+      "breakpoints": true
+    }
+  ]
+}

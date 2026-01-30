@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:developers.cloudflare.com)",
+      "WebSearch",
+      "Bash(npm run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(/dev/null)",
+      "WebFetch(domain:platform.openai.com)",
+      "WebFetch(domain:learnprompting.org)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:stackoverflow.com)",
+      "WebFetch(domain:ai-sdk.dev)",
+      "WebFetch(domain:ai-sdk-preview-pdf-support.vercel.app)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:dredyson.com)",
+      "Bash(mkdir:*)",
+      "Bash(tree:*)",
+      "WebFetch(domain:openrouter.ai)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm drizzle-kit generate:*)",
+      "Bash(curl -s -X POST http://localhost:8000/api/hallucinations/estimate -H \"Content-Type: application/json\" -d '{\"\"\"\"prompt\"\"\"\": \"\"\"\"What is the capital of France?\"\"\"\"}')",
+      "Bash(curl -s -X POST http://localhost:8000/api/hallucinations/estimate -H 'Content-Type: application/json' -d '{\"\"prompt\"\": \"\"What is the capital of France?\"\"}')",
+      "Bash(pnpm run check)",
+      "Bash(pnpm run typecheck)",
+      "Bash(curl:*)",
+      "Bash(docker stats:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker-compose restart:*)",
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "WebFetch(domain:clerk.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

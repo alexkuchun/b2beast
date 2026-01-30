@@ -1,0 +1,525 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-10-22 19:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ru\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:58
+#~ msgid "viewer.noDocument"
+#~ msgstr "Документ не выбран"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:61
+#~ msgid "viewer.selectPrompt"
+#~ msgstr "Выберите документ на боковой панели для просмотра анализа или создайте новый рабочий процесс для загрузки документа"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:70
+#~ msgid "viewer.createWorkflow"
+#~ msgstr "Создать новый рабочий процесс"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:90
+#~ msgid "viewer.extracting"
+#~ msgstr "Извлечение текста и структуры из вашего контракта..."
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:91
+#~ msgid "viewer.analyzing"
+#~ msgstr "Анализ пунктов на предмет потенциальных рисков..."
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:92
+#~ msgid "viewer.creating"
+#~ msgstr "Создание сводки рисков документа..."
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:93
+#~ msgid "viewer.analyzingContract"
+#~ msgstr "Анализ контракта на предмет потенциальных рисков..."
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:104
+#~ msgid "viewer.complete"
+#~ msgstr "завершено"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:119
+#~ msgid "viewer.errorTitle"
+#~ msgstr "Ошибка обработки"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:125
+#~ msgid "viewer.retry"
+#~ msgstr "Повторить обработку"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:151
+#~ msgid "viewer.riskSummary"
+#~ msgstr "Сводка рисков документа"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:175
+#~ msgid "viewer.overallRisk"
+#~ msgstr "Общая оценка рисков"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentViewer.tsx:183
+#~ msgid "viewer.topConcerns"
+#~ msgstr "Топ 3 проблемы"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentSidebar.tsx:67
+#~ msgid "documents.title"
+#~ msgstr "Документы"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentSidebar.tsx:89
+#~ msgid "documents.empty"
+#~ msgstr "Документов пока нет"
+
+#. js-lingui-explicit-id
+#: src/components/DocumentSidebar.tsx:92
+#~ msgid "documents.uploadPrompt"
+#~ msgstr "Загрузите документ, чтобы начать"
+
+#. placeholder {0}: review.severity
+#. placeholder {1}: review.category || 'issue'
+#: src/components/BlocksRenderer.tsx:53
+msgid "{0} severity: {1}"
+msgstr "{0} уровень: {1}"
+
+#: src/app/[locale]/research/[id]/page.tsx:353
+msgid "<0>Processing Time:</0> This analysis can take up to 8 minutes to complete."
+msgstr "<0>Время обработки:</0> Этот анализ может занять до 8 минут."
+
+#: src/app/[locale]/research/[id]/page.tsx:185
+msgid "A compliance check is already in progress for this contract."
+msgstr "Проверка соответствия для этого контракта уже выполняется."
+
+#: src/app/[locale]/page.tsx:94
+msgid "AI-Powered Contract Analysis"
+msgstr "Анализ контрактов на базе ИИ"
+
+#: src/components/DocumentViewer.tsx:121
+msgid "An error occurred while processing the document."
+msgstr "Произошла ошибка при обработке документа."
+
+#: src/app/[locale]/research/[id]/page.tsx:201
+msgid "An unexpected error occurred"
+msgstr "Произошла непредвиденная ошибка"
+
+#: src/components/ComplianceModal.tsx:116
+msgid "Analysis of contract clauses against German commercial law (HGB)"
+msgstr "Анализ пунктов контракта на соответствие германскому коммерческому праву (HGB)"
+
+#: src/components/DocumentViewer.tsx:90
+msgid "Analyzing clauses for potential risks..."
+msgstr "Анализ пунктов на предмет потенциальных рисков..."
+
+#: src/components/DocumentViewer.tsx:92
+msgid "Analyzing contract for potential risks..."
+msgstr "Анализ контракта на предмет потенциальных рисков..."
+
+#: src/components/ComplianceModal.tsx:129
+msgid "Analyzing contract..."
+msgstr "Анализ контракта..."
+
+#: src/app/[locale]/new/page.tsx:98
+#: src/app/[locale]/research/[id]/page.tsx:293
+msgid "Back to Documents"
+msgstr "Назад к документам"
+
+#: src/app/[locale]/research/[id]/page.tsx:359
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/app/[locale]/research/[id]/page.tsx:312
+msgid "Check Legal Compliance"
+msgstr "Проверить соответствие законодательству"
+
+#: src/components/ComplianceModal.tsx:175
+msgid "Clauses Analyzed"
+msgstr "Проанализировано пунктов"
+
+#: src/components/DocumentViewer.tsx:103
+msgid "complete"
+msgstr "завершено"
+
+#: src/app/[locale]/research/[id]/page.tsx:184
+msgid "Compliance check already running"
+msgstr "Проверка соответствия уже выполняется"
+
+#: src/components/ComplianceModal.tsx:154
+msgid "Compliance check failed. Please try again."
+msgstr "Проверка соответствия не удалась. Попробуйте снова."
+
+#: src/app/[locale]/research/[id]/page.tsx:172
+msgid "Compliance check started"
+msgstr "Проверка соответствия запущена"
+
+#: src/components/ComplianceModal.tsx:211
+msgid "Compliance Findings"
+msgstr "Результаты проверки соответствия"
+
+#. placeholder {0}: result.contractBlockIndex
+#: src/components/ComplianceModal.tsx:258
+msgid "Contract Block #{0}"
+msgstr "Блок контракта #{0}"
+
+#: src/components/DocumentSidebar.tsx:76
+#~ msgid "Create new workflow"
+#~ msgstr "Создать новый рабочий процесс"
+
+#: src/app/[locale]/new/page.tsx:106
+#: src/components/DocumentViewer.tsx:69
+msgid "Create New Workflow"
+msgstr "Загрузить новый документ"
+
+#: src/components/DocumentViewer.tsx:91
+msgid "Creating document risk summary..."
+msgstr "Создание сводки рисков документа..."
+
+#: src/components/ComplianceModal.tsx:226
+msgid "CRITICAL"
+msgstr "КРИТИЧЕСКИЙ"
+
+#: src/components/ComplianceModal.tsx:183
+msgid "Critical Issues"
+msgstr "Критические проблемы"
+
+#. placeholder {0}: complianceResults.phase2.length
+#: src/components/ComplianceModal.tsx:213
+msgid "Detailed analysis of {0} identified issues"
+msgstr "Подробный анализ {0} выявленных проблем"
+
+#: src/components/DocumentViewer.tsx:150
+msgid "Document Risk Summary"
+msgstr "Сводка рисков документа"
+
+#: src/components/DocumentSidebar.tsx:68
+#~ msgid "Documents"
+#~ msgstr "Документы"
+
+#: src/components/DocumentTile.tsx:33
+msgid "Done"
+msgstr "Готово"
+
+#: src/app/[locale]/new/page.tsx:152
+#: src/app/[locale]/page.tsx:139
+msgid "Drop your PDF file here"
+msgstr "Перетащите PDF файл сюда"
+
+#: src/components/SeverityFilters.tsx:24
+#: src/components/SeverityLegend.tsx:27
+msgid "Elevated"
+msgstr "Повышенный"
+
+#: src/components/SeverityControl.tsx:32
+msgid "Elevated Risk"
+msgstr "Повышенный риск"
+
+#: src/components/HighlightTooltip.tsx:47
+msgid "ELEVATED RISK"
+msgstr "ПОВЫШЕННЫЙ РИСК"
+
+#: src/app/[locale]/research/[id]/page.tsx:200
+#: src/components/DocumentTile.tsx:39
+msgid "Error"
+msgstr "Ошибка"
+
+#: src/components/DocumentViewer.tsx:89
+msgid "Extracting text and structure from your contract..."
+msgstr "Извлечение текста и структуры из вашего контракта..."
+
+#: src/app/[locale]/research/[id]/page.tsx:192
+msgid "Failed to start compliance check"
+msgstr "Не удалось запустить проверку соответствия"
+
+#: src/app/[locale]/new/page.tsx:50
+#: src/app/[locale]/new/page.tsx:60
+#: src/app/[locale]/page.tsx:50
+#: src/app/[locale]/page.tsx:59
+msgid "Failed to upload document"
+msgstr "Не удалось загрузить документ"
+
+#: src/components/SeverityFilters.tsx:34
+msgid "Filters:"
+msgstr "Фильтры:"
+
+#: src/components/DocumentViewer.tsx:79
+msgid "Generating Summary"
+msgstr "Создание сводки"
+
+#: src/app/[locale]/research/[id]/page.tsx:260
+msgid "Go Home"
+msgstr "На главную"
+
+#: src/components/SeverityFilters.tsx:22
+#: src/components/SeverityLegend.tsx:25
+msgid "High"
+msgstr "Высокий"
+
+#: src/components/SeverityControl.tsx:30
+msgid "High Risk"
+msgstr "Высокий риск"
+
+#: src/components/HighlightTooltip.tsx:45
+msgid "HIGH RISK"
+msgstr "ВЫСОКИЙ РИСК"
+
+#: src/components/ComplianceModal.tsx:132
+msgid "Identifying relevant legal articles"
+msgstr "Определение соответствующих правовых статей"
+
+#: src/components/ComplianceModal.tsx:292
+msgid "Issue Details"
+msgstr "Детали проблемы"
+
+#: src/components/ComplianceModal.tsx:114
+msgid "Legal Compliance Review"
+msgstr "Проверка соответствия законодательству"
+
+#: src/components/SeverityLegend.tsx:39
+msgid "Legend:"
+msgstr "Легенда:"
+
+#: src/app/[locale]/research/[id]/page.tsx:245
+msgid "Loading research..."
+msgstr "Загрузка исследования..."
+
+#: src/components/SeverityControl.tsx:36
+msgid "Low Risk"
+msgstr "Низкий риск"
+
+#: src/components/HighlightTooltip.tsx:51
+msgid "LOW RISK"
+msgstr "НИЗКИЙ РИСК"
+
+#: src/components/SeverityFilters.tsx:26
+#: src/components/SeverityLegend.tsx:29
+msgid "Medium"
+msgstr "Средний"
+
+#: src/components/SeverityControl.tsx:34
+msgid "Medium Risk"
+msgstr "Средний риск"
+
+#: src/components/HighlightTooltip.tsx:49
+msgid "MEDIUM RISK"
+msgstr "СРЕДНИЙ РИСК"
+
+#: src/components/ComplianceModal.tsx:230
+msgid "MINOR"
+msgstr "НЕЗНАЧИТЕЛЬНЫЙ"
+
+#: src/components/ComplianceModal.tsx:199
+msgid "Minor Issues"
+msgstr "Незначительные проблемы"
+
+#: src/components/ComplianceModal.tsx:228
+msgid "MODERATE"
+msgstr "УМЕРЕННЫЙ"
+
+#: src/components/ComplianceModal.tsx:191
+msgid "Moderate Issues"
+msgstr "Умеренные проблемы"
+
+#: src/components/ComplianceModal.tsx:321
+msgid "No compliance issues found. All clauses appear to be compliant."
+msgstr "Проблемы с соответствием не обнаружены. Все пункты соответствуют требованиям."
+
+#: src/components/ComplianceModal.tsx:322
+msgid "No compliance results available yet."
+msgstr "Результаты проверки соответствия пока не доступны."
+
+#: src/components/DocumentViewer.tsx:59
+msgid "No Document Selected"
+msgstr "Документ не выбран"
+
+#: src/components/DocumentGrid.tsx:35
+msgid "No documents yet"
+msgstr "Документов пока нет"
+
+#: src/app/[locale]/not-found.tsx:10
+msgid "Oops! Page not found"
+msgstr "Упс! Страница не найдена"
+
+#: src/app/[locale]/new/page.tsx:155
+#: src/app/[locale]/page.tsx:142
+msgid "or click to browse"
+msgstr "или нажмите для выбора"
+
+#: src/components/DocumentViewer.tsx:174
+msgid "Overall Risk Evaluation"
+msgstr "Общая оценка рисков"
+
+#: src/components/ComplianceModal.tsx:166
+msgid "Overview of compliance findings"
+msgstr "Обзор результатов проверки соответствия"
+
+#: src/components/DocumentViewer.tsx:77
+msgid "Parsing Document"
+msgstr "Обработка документа"
+
+#: src/components/ComplianceModal.tsx:133
+msgid "Performing detailed compliance analysis"
+msgstr "Выполнение детального анализа соответствия"
+
+#: src/app/[locale]/new/page.tsx:78
+#: src/app/[locale]/page.tsx:77
+msgid "Please upload a PDF file"
+msgstr "Пожалуйста, загрузите PDF файл"
+
+#: src/components/DocumentTile.tsx:27
+msgid "Processing"
+msgstr "Обработка"
+
+#: src/components/DocumentViewer.tsx:80
+msgid "Processing Document"
+msgstr "Обработка документа"
+
+#: src/components/DocumentViewer.tsx:118
+msgid "Processing Error"
+msgstr "Ошибка обработки"
+
+#: src/components/DocumentSidebar.tsx:44
+#~ msgid "Processing..."
+#~ msgstr "Обработка..."
+
+#: src/components/ComplianceModal.tsx:302
+msgid "Recommendation"
+msgstr "Рекомендация"
+
+#: src/app/[locale]/research/[id]/page.tsx:255
+msgid "Research not found"
+msgstr "Исследование не найдено"
+
+#: src/components/DocumentViewer.tsx:124
+msgid "Retry Processing"
+msgstr "Повторить обработку"
+
+#: src/app/[locale]/not-found.tsx:13
+msgid "Return to Home"
+msgstr "Вернуться на главную"
+
+#: src/components/DocumentViewer.tsx:78
+msgid "Reviewing Risks"
+msgstr "Проверка рисков"
+
+#: src/components/SeverityFilters.tsx:28
+#: src/components/SeverityLegend.tsx:31
+msgid "Safe"
+msgstr "Безопасный"
+
+#: src/components/ComplianceModal.tsx:232
+msgid "SAFE"
+msgstr "БЕЗОПАСНЫЙ"
+
+#: src/components/DocumentViewer.tsx:62
+msgid "Select a document from the sidebar to view its analysis, or create a new workflow to upload a document"
+msgstr "Выберите документ на боковой панели для просмотра анализа или загрузите новый документ"
+
+#: src/app/[locale]/new/page.tsx:162
+msgid "Select File"
+msgstr "Выбрать файл"
+
+#: src/app/[locale]/research/[id]/page.tsx:361
+msgid "Start Analysis"
+msgstr "Начать анализ"
+
+#: src/app/[locale]/research/[id]/page.tsx:344
+msgid "Start Legal Compliance Check?"
+msgstr "Начать проверку соответствия законодательству?"
+
+#: src/components/ComplianceModal.tsx:134
+msgid "Starting compliance check"
+msgstr "Запуск проверки соответствия"
+
+#: src/app/[locale]/research/[id]/page.tsx:307
+msgid "Starting..."
+msgstr "Запуск..."
+
+#: src/components/ComplianceModal.tsx:165
+msgid "Summary"
+msgstr "Сводка"
+
+#: src/app/[locale]/research/[id]/page.tsx:173
+msgid "The legal compliance workflow has been triggered."
+msgstr "Процесс проверки соответствия законодательству запущен."
+
+#: src/components/ComplianceModal.tsx:142
+msgid "This comprehensive analysis can take up to 8 minutes to complete."
+msgstr "Этот комплексный анализ может занять до 8 минут."
+
+#: src/app/[locale]/research/[id]/page.tsx:348
+msgid "This will perform a comprehensive legal compliance analysis of your contract against German commercial law (HGB)."
+msgstr "Это выполнит комплексный анализ вашего контракта на соответствие германскому коммерческому праву (HGB)."
+
+#: src/components/DocumentViewer.tsx:182
+msgid "Top 3 Concerns"
+msgstr "Топ 3 проблемы"
+
+#: src/app/[locale]/new/page.tsx:142
+#: src/app/[locale]/page.tsx:129
+msgid "Try Again"
+msgstr "Попробовать снова"
+
+#: src/components/DocumentTile.tsx:45
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: src/app/[locale]/new/page.tsx:109
+msgid "Upload a contract document to start a new analysis workflow"
+msgstr "Загрузите договор для анализа"
+
+#: src/components/DocumentGrid.tsx:38
+msgid "Upload a document above to get started"
+msgstr "Загрузите документ выше, чтобы начать"
+
+#: src/components/DocumentSidebar.tsx:93
+#~ msgid "Upload a document to get started"
+#~ msgstr "Загрузите документ, чтобы начать"
+
+#: src/app/[locale]/page.tsx:150
+msgid "Upload Document"
+msgstr "Загрузить документ"
+
+#: src/app/[locale]/page.tsx:97
+msgid "Upload your contract documents and get instant AI-powered legal analysis"
+msgstr "Загрузите ваши контракты и получите мгновенный юридический анализ с помощью ИИ"
+
+#: src/components/DocumentSidebar.tsx:50
+#~ msgid "Uploaded"
+#~ msgstr "Загружено"
+
+#: src/app/[locale]/new/page.tsx:123
+#: src/app/[locale]/page.tsx:110
+msgid "Uploading Document..."
+msgstr "Загрузка документа..."
+
+#: src/app/[locale]/research/[id]/page.tsx:325
+msgid "View Compliance Results"
+msgstr "Просмотр результатов проверки"
+
+#: src/app/[locale]/research/[id]/page.tsx:325
+msgid "View Compliance Status"
+msgstr "Просмотр статуса проверки"
+
+#: src/components/ComplianceModal.tsx:283
+msgid "View in Contract"
+msgstr "Просмотреть в контракте"
+
+#: src/app/[locale]/page.tsx:170
+msgid "Your Documents"
+msgstr "Ваши документы"

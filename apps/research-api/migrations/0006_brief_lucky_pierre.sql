@@ -1,0 +1,1 @@
+ALTER TABLE `research` DROP COLUMN `enable_hallucination_check`;

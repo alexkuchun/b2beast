@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    // { "path": "apps/app-folder-here" },
+  ],
+  "compilerOptions": {
+    "typeRoots": ["types", "node_modules/@types"]
+  },
+  "include": ["types/**/*.d.ts"]
+}

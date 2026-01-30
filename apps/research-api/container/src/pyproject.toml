@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hallbayes"
+version = "0.1.0"
+description = "EDFL/B2T/ISR hallucination risk calculator for LLMs"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["LLM", "hallucination", "risk", "EDFL", "OpenAI", "Anthropic", "HuggingFace", "Ollama", "OpenRouter"]
+authors = [ { name = "Leo" } ]
+license = { text = "MIT" }
+urls = { Homepage = "https://github.com/leochlon/hallbayes" }
+dependencies = [
+  "openai>=1.0.0",
+  "numpy",
+  "requests",
+]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.28.0"]
+huggingface = ["transformers", "torch"]
+ollama = ["ollama"]
+openrouter = ["requests"]
+all = ["anthropic>=0.28.0", "transformers", "torch", "ollama", "requests"]
+web = ["streamlit>=1.28.0"]
+dev = [
+  "pyinstaller>=6.0.0",
+  "pytest>=7.0.0",
+  "ruff>=0.4.0",
+  "mypy>=1.4.0",
+]
+
+[project.scripts]
+hallbayes-cli = "app.cli.frontend:main"
+hallbayes-web = "app.web.web_app:main"
+hallbayes-launch = "app.launcher.entry:main"
+hallbayes-example = "app.examples.example:main"
+
+[tool.setuptools]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hallbayes*", "app*"]

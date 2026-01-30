@@ -1,0 +1,47 @@
+# Dependencies
+node_modules
+
+# Next.js
+.next
+out
+
+# Production
+build
+dist
+
+# Misc
+*.local
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# clerk configuration (can include secrets)
+/.clerk/
+
+.env
+
+# LingUI compiled message catalogs (generated from .po files)
+src/locales/**/messages.js
